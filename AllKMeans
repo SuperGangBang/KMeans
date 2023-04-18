@@ -1,0 +1,9 @@
+#Function BisectingKMeans
+kmeans2 = BisectingKMeans(n_clusters=3, random_state = 0).fit(x)
+kmpreds2 = kmeans2.predict(x)
+#Function MiniBatchKMeans
+kmeans1 = MiniBatchKMeans(n_clusters=3, random_state = 0).fit(x)
+kmpreds1 = kmeans1.predict(x)
+#Function KMeans
+kmeans = KMeans(n_clusters=3, random_state = 0).fit(x)
+kmpreds = kmeans.predict(x)
